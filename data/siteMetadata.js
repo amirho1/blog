@@ -7,8 +7,8 @@ const AUTHOR_DATA = {
 const siteMetadata = {
   title: `وبلاگ | ${AUTHOR_DATA.name} ${AUTHOR_DATA.lastName} `,
   author: AUTHOR_DATA.name,
-  headerTitle: `وبلاگ | ${AUTHOR_DATA.name} ${AUTHOR_DATA.lastName} `,
-  description: `وبلاگ | ${AUTHOR_DATA.name} ${AUTHOR_DATA.lastName} `,
+  headerTitle: `${AUTHOR_DATA.name} ${AUTHOR_DATA.lastName} `,
+  description: `وبلاگ و پرت فولیو امیر حسین سلیقه دار یک وب دولوپر گیک `,
   language: 'fa-IR',
   theme: 'system', // system, dark or light
   siteUrl: 'https://amirho-salighedar.ir',
