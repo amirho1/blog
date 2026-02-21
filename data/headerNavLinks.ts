@@ -2,7 +2,7 @@ const headerNavLinks = [
   { href: '/', title: 'خانه' },
   { href: '/blog', title: 'وبلاگ' },
   { href: '/tags', title: 'برچسب‌ها' },
-  { href: '/projects', title: 'پروژه‌ها' },
+  { href: '/projects', title: 'پروژه‌ ها' },
   { href: '/about', title: 'درباره' },
 ]
 

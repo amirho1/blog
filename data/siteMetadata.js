@@ -21,8 +21,8 @@ const siteMetadata = {
   x: 'https://x.com/the_Amirho',
   youtube: 'https://youtube.com/@amirhossiensalighedar3546',
   linkedin: 'https://www.linkedin.com/in/amirho/',
-  instagram: 'https://www.instagram.com',
-  medium: 'https://medium.com',
+  instagram: 'https://www.instagram.com/amirhosseinsalighedar/',
+  medium: 'https://medium.com/@amirhosseinsalighedar',
   locale: 'fa-IR',
   // set to true if you want a navbar fixed to the top
   stickyNav: true,
