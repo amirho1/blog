@@ -1,9 +1,26 @@
+'use client'
+import { useTheme } from 'next-themes'
+
+enum themeTypes {
+  light = 'light',
+  dark = 'dark',
+}
+
+const logoMap: Record<keyof typeof themeTypes, string> = {
+  [themeTypes.light]: '/static/images/logo.png',
+  [themeTypes.dark]: '/static/images/logo-dark.png',
+}
+
 export default function Logo() {
+  const { resolvedTheme } = useTheme()
+
+  const logo = logoMap[resolvedTheme!]
+
   return (
-    <div className="mr-3 flex h-16 w-16 items-center justify-center overflow-hidden rounded-full bg-white p-2 dark:text-gray-100">
+    <div className="mr-3 flex h-16 w-16 items-center justify-center overflow-hidden rounded-full">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/static/images/logo.png"
+        src={logo}
         alt="logo"
         width={80}
         height={80}
